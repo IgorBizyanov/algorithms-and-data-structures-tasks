@@ -142,6 +142,7 @@ char reversedBracket(char c) {
 		return ')';
 	if (c == '[')
 		return ']';
+	return c;              //if another symbol
 }
 
 int isEmpty(stack *s) {
