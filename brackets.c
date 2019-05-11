@@ -1,3 +1,18 @@
+/*
+	TASK: given a code with brackets ( "{", "}", "[", "]", "(", ")" ) and other symbols. 
+	Check if the brackets are correctly placed in this code. 
+
+	Input: program source code.
+	Output: Check if the brackets are placed correctly. If not, give the index of the first error.
+
+	Example:
+		Input: {}[]
+		Output: Success
+	Example:
+		Input: fun(var[i);
+		Output: 10
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
