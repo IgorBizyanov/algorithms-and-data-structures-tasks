@@ -1,4 +1,6 @@
 /*
+    A task from the CLRS, 2.3.7
+    
     You are given an array with n integers and intger x. 
     Try to find two elements with sum = x.
     Time should be Theta(n*log(n)).
